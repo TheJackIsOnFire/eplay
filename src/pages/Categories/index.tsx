@@ -96,10 +96,10 @@ const emBreve: Game[] = [
 const Categories = () => {
   return (
     <>
-      <ProductList games={emBreve} title="RPG" background="black" />
-      <ProductList games={promocoes} title="Ação" background="gray" />
-      <ProductList games={emBreve} title="Aventura" background="black" />
-      <ProductList games={promocoes} title="FPS" background="gray" />
+      <ProductList games={emBreve} title="RPG" background="gray" />
+      <ProductList games={promocoes} title="Ação" background="black" />
+      <ProductList games={emBreve} title="Aventura" background="gray" />
+      <ProductList games={promocoes} title="FPS" background="black" />
     </>
   )
 }
