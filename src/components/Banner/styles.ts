@@ -7,6 +7,7 @@ export const Imagem = styled.div`
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center top;
   font-weight: bold;
   position: relative;
 
